@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/fontawesome.min.css" />
-  <link rel="stylesheet" href="css/animation.css" />
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="css/style.css" />
+<?php
+require_once "init.php";
 
-</head>
-
-<body>
+?>
 
 <!--start account div-->
 <div class="accountr pt-5 ">
@@ -53,7 +44,7 @@
               
                 <form  class="user_form">
                   <div class="form-group ">
-                      <h2 class="text-center pt-5 mb-4">اضافة عداد غاز </h2>  
+                      <h2 class="text-center pt-5 mb-4">اضافة عداد الكهرباء </h2>  
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="اسم المستخدم ">
                   </div>
                     
@@ -73,7 +64,7 @@
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="نوع العداد ">
                   </div>
                     
-                  <button type="submit" class="login btn btn-primary mt-5">اضافة عداد غاز</button>
+                  <button type="submit" class="login btn btn-primary mt-5">اضافة عداد الكهرباء</button>
                 </form>
           </div>
       </div>
@@ -84,11 +75,7 @@
 
 <!--end account div-->
 
+<?php
+include $tpl . "footer.php";
 
-    <script src="js/jquery.js"></script>
-      <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+?>

@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/fontawesome.min.css" />
-  <link rel="stylesheet" href="css/animation.css" />
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="css/style.css" />
-
-</head>
-
-<body>
+require_once "init.php";
+?>
 
 <!--start account div-->
 <div class="accountr pt-5 ">
@@ -53,27 +43,26 @@
               
                 <form  class="user_form">
                   <div class="form-group ">
-                      <h2 class="text-center pt-5 mb-4">اضافة عداد الكهرباء </h2>  
+                      <h2 class="text-center pt-5 mb-4"> اضافة خط أرضي</h2>  
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="اسم المستخدم ">
                   </div>
                     
                  <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="رقم العداد  ">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="كود المنطقه  ">
                   </div>
                     
                     <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="العنوان ">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="رقم الارضي ">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="رقم الهاتف المحمول ">
                   </div>
                     
-                     <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="رقم البوردة ">
-                  </div>
+                 
                     
-                    <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="نوع العداد ">
-                  </div>
+                 
                     
-                  <button type="submit" class="login btn btn-primary mt-5">اضافة عداد الكهرباء</button>
+                  <button type="submit" class="login btn btn-primary mt-5">أضافة الخط الارضي</button>
                 </form>
           </div>
       </div>
@@ -85,10 +74,7 @@
 <!--end account div-->
 
 
-    <script src="js/jquery.js"></script>
-      <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
+<?php
+ include $tpl . "footer.php";
 
-</html>
+?>

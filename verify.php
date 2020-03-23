@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تاكيد كلمه السر</title>
+<?php
+require_once "init.php";
 
-     <link rel="stylesheet" href="css/bootstrap.min.css"> 
-     <link rel="stylesheet" href="css/style.css" > 
-</head>
-<body>
+?>
      
    <div class="format ">
    
@@ -43,7 +36,6 @@
        </div>
    </div>
   </div>
-   <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+  <?php
+  include $tpl . "footer.php";
+   ?>

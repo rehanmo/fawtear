@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/fontawesome.min.css" />
-  <link rel="stylesheet" href="css/animation.css" />
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="css/style.css" />
-
-</head>
-
-<body>
+<?php
+require_once "init.php";
+?>
 
 <!--start account div-->
 <div class="accountr pt-5 ">
@@ -85,10 +74,6 @@
 <!--end account div-->
 
 
-    <script src="js/jquery.js"></script>
-      <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+<?php
+include $tpl . "footer.php";
+?>

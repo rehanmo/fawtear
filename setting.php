@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+ require_once "init.php";
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/fontawesome.min.css" />
-  <link rel="stylesheet" href="css/animation.css" />
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="css/style.css" />
-
-</head>
-
-<body>
+?>
 
 <!--start account div-->
 <div class="accountr pt-5 ">
@@ -53,7 +43,7 @@
               
                 <form  class="user_form">
                   <div class="form-group ">
-                      <h2 class="text-center pt-5 mb-4">صورة المستخدم </h2>  
+                      
                       <img src="assets/images/img.png" alt="profile photo" >
                       <button type="submit" class="login btn btn-primary mt-5"> تغيير الصورة </button>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" إضافة بريد لإلكترونى جديد ">
@@ -82,11 +72,7 @@
 
 
 <!--end account div-->
+<?php
 
-
-    <script src="js/jquery.js"></script>
-      <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-</html>
+include $tpl . "footer.php" ;
+?>

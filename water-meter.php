@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/fontawesome.min.css" />
-  <link rel="stylesheet" href="css/animation.css" />
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="css/style.css" />
 
-</head>
-
-<body>
+<?php
+require_once "init.php";
+?>
 
 <!--start account div-->
 <div class="accountr pt-5 ">
@@ -19,7 +10,7 @@
   <div class="container">
     <div class="row">
       <div class="photo col-lg-4 col-sm-12 text-center text-primary" >
-        <img src="assets/imagess/man.png" alt="profile photo" >
+        <img src="assets/images/man.png" alt="profile photo" >
           <h3 class="mt-3"> اسم المستخدم </h3>
           <span class=""> <i class="fas fa-shopping-cart"></i> 100 </span>
           <h5> رصيد المحفظة </h5>
@@ -84,11 +75,6 @@
 
 <!--end account div-->
 
-
-    <script src="js/jquery.js"></script>
-      <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+<?php
+include $tpl . "footer.php";
+?>
