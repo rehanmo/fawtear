@@ -45,7 +45,7 @@
                   <div class="form-group ">
                       
                       <img src="assets/images/img.png" alt="profile photo" >
-                      <button type="submit" class="login btn btn-primary mt-5"> تغيير الصورة </button>
+                      <button type="submit" class="login btn btn-primary mt-5 "> تغيير الصورة </button>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" إضافة بريد لإلكترونى جديد ">
                   </div>
                     
