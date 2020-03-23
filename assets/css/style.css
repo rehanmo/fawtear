@@ -33,11 +33,11 @@ color: #ffff1b;
 /*end our work*/
 /*start account*/
 .start{
-    background-image: url(../image/top.png);
+    background-image: url(../images/top.png);
     height: 60px;
 }
 .account{
-    background-image: url(../image/top-head.3d9ff057.png);
+    background-image: url(../images/top-head.3d9ff057.png);
     min-height: 1000px;
     background-size: cover;
     
@@ -178,7 +178,7 @@ color: #ffff1b;
 /*end follwoing div*/
 /*start counters*/
 .counters{
-    background-image: url(../image/homebackground.2757ad8b.png);
+    background-image: url(../images/homebackground.2757ad8b.png);
     min-height: 400px;
 }
 .counters .top-space{
