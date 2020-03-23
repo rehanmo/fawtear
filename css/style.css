@@ -1,0 +1,419 @@
+/*start our work*/
+body{
+
+
+}
+.links{
+     color: #fff;
+    background-color: #31d097;
+    padding: 16px 18px;
+    border-radius: 10px;
+    width: 28%;
+    font-size: 20px;
+}
+@media (min-width: 576px) and (min-width: 767.98px) { 
+    .links{
+    color: #fff;
+    padding: 14px 8px;
+    width: 30%;
+    display: block;
+    text-align: center !important;
+    }
+}
+@media (max-width: 575.98px) { 
+    .links{
+color: #ffff1b;
+    padding: 14px 0px;
+    width: 47%;
+    margin: auto;
+    /* display: block; */
+    text-align: center !important;
+}
+}
+/*end our work*/
+/*start account*/
+.start{
+    background-image: url(../image/top.png);
+    height: 60px;
+}
+.account{
+    background-image: url(../image/top-head.3d9ff057.png);
+    min-height: 1000px;
+    background-size: cover;
+    
+}
+.account .mynav{
+
+    box-shadow: -11px 4px 27px 0 rgba(251, 241, 241, 0.85);
+    background-color: #fff;
+    padding: 15px 0;
+    border-radius: 20px;
+}
+@media (max-width: 767.98px) { 
+    .account .cards h2{
+       text-align: center !important;
+    }
+}
+.account .mynav .navbar-brand{
+    color:#2fa8cc;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media (max-width: 240px) {
+    .account .mynav .navbar-brand{
+        font-size: 16px;
+ }
+}
+
+.account .mynav .navbar-brand img{
+    width: 35px;
+    position: relative;
+    bottom: 7px;
+}
+@media (max-width: 575.98px) { 
+.account .navbar-light .navbar-nav{
+       margin-top: 29px !important;
+
+    }
+}
+
+.account .navbar-light .navbar-nav .nav-link{
+    color: #656b6b;
+    margin-right: 15px;
+    font-weight: bold;
+    text-align: right;
+}
+@media (max-width: 575.98px) { 
+.account .navbar-light .navbar-nav .nav-link{
+    font-size: 12px;
+    margin: auto;
+    }
+}
+
+.account .navbar-light .navbar-nav  .mycolor{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color:#31d097;
+    border-radius: 10px;
+    color: #fff;
+}
+@media (min-width: 992px)  { 
+    .account .navbar-light .navbar-nav  .mycolor{
+        padding:  10px 25px;
+        margin-right: 3rem;
+    }
+}
+.account .cards{
+    margin-top: 16rem;
+}
+@media (max-width: 992px) { 
+.account .cards{
+    margin-top:40px;
+    }
+}
+.account .cards .card{
+    background: none;
+    border: none;
+}
+.account .cards .card .card-title{   
+    color: #fff815;
+    font-weight: bold;
+}
+
+@media (max-width: 767.98px) { 
+.account .cards .card .card-title{   
+        font-size: 18px;
+    }
+}
+@media (max-width: 767.98px) { 
+.account .cards .card .card-title{   
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+    }
+}
+.account .cards .card .card-text{   
+    color: #fff;
+    font-weight: bold;
+    margin: 20px 0;
+}
+@media (max-width: 767.98px) { 
+.account .cards .card .card-text{   
+      font-size: 13px;
+    color: #000;
+    font-weight: 300;
+    }
+}
+.account .cards .card img{
+    width: 65%;
+    margin: auto;
+}
+@media (max-width: 992px) { 
+.account .cards .card img{
+    width: 40%;
+}    
+}
+@media (max-width: 767.98px) { 
+
+.account .cards .card img{
+        width: 20%;
+    margin-top: 0 !important;
+}
+}
+/*end account*/
+/*start payment div*/
+.payment .vidios img{
+        width: 100%;
+        margin: auto;
+    }
+/*end payment div*/
+/*start follwoing div*/
+.follwoing img{
+     width: 80%;
+    margin: auto;
+}
+.follwoing p{
+    width: 90%;
+}
+/*end follwoing div*/
+/*start counters*/
+.counters{
+    background-image: url(../image/homebackground.2757ad8b.png);
+    min-height: 400px;
+}
+.counters .top-space{
+    padding-top: 7rem;
+}
+.counters .top-space i{
+    display: block;
+    font-size: 40px;
+    padding: 20px 0;
+}
+.counters .top-space span{
+    color: yellow;
+    font-size: 30px;
+}
+/*end counters*/
+/*start news*/
+.news p{
+    padding-top: 1rem;
+    line-height: 1.9;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 4rem;  
+}
+/*end news*/
+/*start down-login*/
+.down-login{
+ padding-top: 2rem;
+background-color: #f9fafa;
+padding-bottom: 2rem;
+}
+.down-login h2{
+    
+    margin-right: 12x;
+    margin-left: 5rem;
+}
+.down-login img{
+  width: 40%;
+    /*#J#gVAlYTz1z&q^bd1Rz*/
+}
+/*end down-login*/
+/*start special*/
+.special{
+   
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.special i{
+    color: #25eca5;
+    font-size: 45px;
+  
+    padding: 21px;
+   
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+/*end special*/
+/*start footer */
+.footer {
+    padding-top: 5rem;
+    text-align: right;
+    background-color: #66d1f0;
+    margin-top: 4rem;
+}
+.footer h2{
+    margin-bottom: 2rem;
+    font-weight: 200;
+}
+.footer .search{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.footer .search input{
+    width: 52%;
+}
+.footer p{
+    padding-right: 10px;
+   
+}
+.footer i{
+    color:#eef7f4;
+    font-size: 20px;
+    padding-left: 10px;
+}
+/*end footer*/
+/*start login*/
+
+.form-control{
+    
+    color: #8994a1;
+    padding: 25px;
+    background-color: #f9fafa;
+    border: none;
+
+}
+.form-group {
+    margin-bottom: 2rem;
+}
+.delet{
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    height: 46px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: red;
+    display: inline-block;
+    color: #fff;
+    line-height: inherit;
+    margin-top:50px ;
+}
+.sub{
+  
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    height: 46px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #31d097;
+    text-align: center;
+    line-height: 46px;
+    border: 0;
+    margin-left: 180px;
+    color: white;
+}
+
+.logo{
+height: 100px;
+margin-top: 25px;
+
+
+}
+h1{
+    display: inline;
+    position: relative;
+    top: 39px;
+    right: 15px;
+    color: #4482c3;
+}
+.forget{
+    color: #4482c3;
+    text-decoration: underline;
+    margin-left: 100px;
+}
+   
+ 
+#sora{  
+    width: 75%;
+    position: relative;
+    bottom: 11rem;
+}
+.new{
+    
+        color: #31d097;
+        margin-top: 40px;
+        float: right;
+        margin-left: 50px;
+
+}
+.divo{
+    display: block;
+    padding-bottom: 150px ;
+    
+    
+}
+a:hover{
+    color:black; 
+    text-decoration:  none;
+}
+.home{
+    text-align: center;
+}
+
+/*end login*/
+/*starat user account*/
+/*start account div*/
+.accountr{
+ 
+    height: 1000px;
+    direction: rtl;
+}
+.photo{
+     color: #6c757d!important;
+}
+.photo img{
+     border: 4px solid;
+    border-radius: 50%;
+    padding: 10px 5px;
+}
+.photo span{
+    font-size: 50px;
+    color: #4fb0bf;
+}
+.photo span i{
+    font-size: 35px;
+}
+.photo h5{
+    margin-top: 10px;
+}
+.photo .list-group{
+    width: 80%;
+    margin: auto;
+}
+.photo .list-group a:hover{
+    background-color:#007bff3b;
+    border-color: #434546;
+    color: #000;
+}
+.list-group-item.active {
+    background-color: #58b5c3;
+}
+.user_form {
+    border-right: 2px solid #ddd;
+    padding-right: 4rem;
+}
+.form-control{
+    background-color: #f0f8ff;
+}
+
+.accountr .count .add_acount{
+    
+    margin: auto;
+   
+    height: 600px;
+}
+.accountr .count .add_acount form{
+    width: 60%;
+    margin: auto;
+   
+}
+.accountr .add_acount form button{
+    display: block;
+    margin: auto;
+} 
+/*end account div*/
+
+/*end user account*/
